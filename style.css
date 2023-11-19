@@ -1,3 +1,15 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    color: #98e54c;
+}
+
 *{
     margin:0;
     padding: 0;
@@ -9,7 +21,7 @@ section{
     width: 100%;
     height: 100vh;
     background-color: #f8f4ec;
-    background-image: url(image/background.jpg);
+    background-image: url(image/banner.jpg);
     background-size: cover;
     background-position: center;
 
@@ -92,7 +104,7 @@ section .text .search_bar button{
     height: auto;
 }
 .second .img_box{
-    width:100%;
+ 
     height: 450px;
     padding: 0 2%;
     display: flex;
@@ -294,101 +306,6 @@ section .text .search_bar button{
     object-position:center;
     border-radius:35px;
 }
-/* }
-.all_review{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    
-
-}
-.r_body{
-    display: flex;
-    height:100vh;
-    justify-content: center;
-    background-color: #000;
-
-}
-.r_section{
-    margin:auto;
-    padding:0 1rem;
-    max-width: 1100px;
-    text-align: center;
-    background-color: #000;
-    
-}
-.rev_title{
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    color:rgb(50,50,50);
-    margin-bottom: .5rem;
-
-
-}
-.r_note{
-    font-size: 1.1rem;
-    color:rgb(150,150,150);
-    font-style:italic;
-
-
-}
-.reviews{
-    margin:2rem auto;
-    display:flex;
-    flex-wrap: wrap;
-    
-}
-.r_review{
-    margin:0 1rem;
-    min-width:300;
-    flex: 1;
-}
-.head_review{
-    margin:1.75rem auto;
-    width:150px;
-    height:150px;
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-
-
-}
-.img1{
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 10px 25px rgba(0,0,0,.25);
-
-}
-.body_review{
-    background-color: rgb(0, 0, 0);
-    padding: 2.5rem;
-    box-shadow:0px 0px 0px 0px rgb(24, 28, 19);
-}
-.name_review{
-    font-size: 1.5rem;
-    color:rgb(50,50,50);
-    margin-bottom: .25rem;
-    background-color: #000;
-}
-.place_review{
-    color: #98e54c;
-    font-style: italic;
-}
-.rating{
-    margin:1rem 0;
-    color:rgb(253,180,42);
-}
-.desc-review{
-    line-height:1.5rem;
-    letter-spacing: 1px;
-    color:rgb(150,150,150)
-} 
-.a2zreview{
-    background-color: #000;
-} */
 .contact{
     width:100%;
     height:345px;
@@ -467,4 +384,31 @@ section .text .search_bar button{
 }
 .contact .subscribe .address .follow .icon i:hover{
     color:#98e54c
+}
+ .end{
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    background:#000;
+    color: #fff;
+
+}
+.aclass{
+    color:#fff;
+}
+ .end span{
+    color: #98e54c;
+
+}
+p .end span i{
+    margin: 0, 8px;
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #98e54c;
 }
