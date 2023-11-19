@@ -1,0 +1,470 @@
+*{
+    margin:0;
+    padding: 0;
+    
+
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f4ec;
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+section nav{
+    width: 100%;
+    height: 70px;
+    padding-top: 25px;
+    background: #fff;
+    
+}
+section nav ul{
+    list-style:none;
+    text-align: center;
+}
+section nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-family:"Emphemia";
+    margin:0 18px;
+}
+section nav ul li:hover{
+    color:#98e54c;
+}
+section .text{
+    position: absolute;
+    top: 250px;
+    left:5%;
+}
+section .text .word{
+    color: #cfcfcf;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+section .text h1{
+    font-size: 50px;
+    color:#fff;
+    line-height:65px;
+}
+section .text h1 span{
+    color: #98e54c;
+}
+section .text .textarea{
+    width: 600px;
+    margin-top:20px;
+    color:#cfcfcf;
+    text-align: justify;
+    line-height: 25px;
+}
+section .text .search_bar{
+    width: 400px;
+    padding:0 10px;
+    background: #fff;
+    margin-top:28px;
+
+}
+section .text .search_bar input{
+    width: 359px;
+    height:40px;
+    background:none;
+    border:none;
+    outline:none;
+    padding: 0 5px;
+}
+section .text .search_bar button{
+    position:absolute;
+    left:400px;
+    width:80px;
+    height:40px;
+    cursor: pointer;
+    background: #98e54c;
+    border:0;   
+}
+.second{
+    width:100%;
+    background-color:#000;
+    padding: 50px 0;
+    height: auto;
+}
+.second .img_box{
+    width:100%;
+    height: 450px;
+    padding: 0 2%;
+    display: flex;
+}
+.second .img_box .img_card{
+    width: 450px;
+    height:450px;
+    display: flex;
+    margin:0 auto;
+    border-radius:35px;
+    overflow:hidden;
+}
+.second .img_box .img_card .display_text{
+    width: 450px;
+    height: 450px;
+    background: rgb(0,0,0,0.3);
+    border-radius: 35px;
+    position:absolute;
+}
+.second .img_box .img_card .display_text .para1{
+    color:#fff;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%
+}
+.second .img_box .img_card .img{
+    width:100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+}
+ .description_1{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: #000;
+
+}
+.description_1 .d_text h1{
+    color:#fff;
+    font-size: 65px;
+    font-family: 'Fredfont';
+    margin-bottom:25px;
+}
+.description_1 .d_text .head_title{
+    margin-bottom: 15px;
+    color: #fff;
+
+    
+} 
+.description_1 .d_text .desc{
+    width:650px;
+    text-align: justify;
+    color:#cfcfcf;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.description_1 .d_text .dis_btn{
+    text-decoration: none;
+    border-color: #98e54c;
+    color: #000;
+    padding: 8px 13px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-family:"Franklin Gothic Book";
+    border-style: solid;
+    background-color: #98e54c;
+
+
+}
+.description_1 .dis_img{
+    overflow: hidden;
+    border-radius: 35px;
+    width: 620px;
+    height: 620px;
+}
+.menu{
+    width:100%;
+    height:auto;
+    background-color: #000;
+
+}
+.menu h1{
+    color:#fff;
+    font-family: "Euphemia";
+    text-align: center;
+    margin-bottom: 25px;
+}
+.menu .m_box{
+    width: 100%;
+    height:auto;
+    display:flex;
+    padding: 1% 0;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.menu .m_box .m_cards{
+    width:620px;
+    height:690px;
+
+}
+.menu .m_box .m_cards .m_img{
+    width:620;
+    height:620;
+    border-radius: 35px;
+    overflow: hidden;
+}
+.menu .m_box .m_cards .m_img img{
+    width:100%;
+    height:100%;
+    object-position: center;
+    object-position: center;
+}
+.menu .m_box .m_cards h6{
+    color:#fff;
+    text-align: center;
+    margin: 10px;
+
+}
+.menu .m_box .m_cards .m_btn{
+    width:130px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    text-decoration: none;
+    color:#000;
+    background: #98e54c;
+    padding:8px 0;
+    font-size: 15px;
+    border-radius: 15px;
+    font-family: "Franklin Gothic";
+}
+.banner{
+    width:100%;
+    height: vh;
+    background: #000;
+}
+
+.banner .b_text{
+    position: absolute;
+
+}
+.banner .b_text h6{
+    color:#fff;
+    letter-spacing: 1px;
+    position: relative;
+    top:340px;
+    left:14%;
+    font-size: 13px;
+
+    
+}
+.banner .b_text h1{
+    color:#fff;
+    position: relative;
+    top:345px;
+    left:14%;
+    font-size:40px;
+}
+.banner .b_text p{
+    width:550px;
+    color: #cfcfcf;
+    position: relative;
+    top:360px;
+    left:14%;
+    text-align:justify;
+    line-height:23px;
+
+}
+.banner .b_text .b_btn{
+    width:130px;
+    position: relative;
+    top: 390px;
+    left:14%;
+    text-decoration: none;
+    color: #000;
+    background: #98e54c;
+    padding: 8px 0;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 8px 13px;
+    font-family: "Franklin Gothic Book";
+    
+}
+.banner img{
+    width:95%;
+    height: 630px;
+    display:flex;
+    margin:0 auto;
+    object-fit:cover;
+    object-position:center;
+    border-radius:35px;
+}
+/* }
+.all_review{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    
+
+}
+.r_body{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    background-color: #000;
+
+}
+.r_section{
+    margin:auto;
+    padding:0 1rem;
+    max-width: 1100px;
+    text-align: center;
+    background-color: #000;
+    
+}
+.rev_title{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color:rgb(50,50,50);
+    margin-bottom: .5rem;
+
+
+}
+.r_note{
+    font-size: 1.1rem;
+    color:rgb(150,150,150);
+    font-style:italic;
+
+
+}
+.reviews{
+    margin:2rem auto;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.r_review{
+    margin:0 1rem;
+    min-width:300;
+    flex: 1;
+}
+.head_review{
+    margin:1.75rem auto;
+    width:150px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+
+
+}
+.img1{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+
+}
+.body_review{
+    background-color: rgb(0, 0, 0);
+    padding: 2.5rem;
+    box-shadow:0px 0px 0px 0px rgb(24, 28, 19);
+}
+.name_review{
+    font-size: 1.5rem;
+    color:rgb(50,50,50);
+    margin-bottom: .25rem;
+    background-color: #000;
+}
+.place_review{
+    color: #98e54c;
+    font-style: italic;
+}
+.rating{
+    margin:1rem 0;
+    color:rgb(253,180,42);
+}
+.desc-review{
+    line-height:1.5rem;
+    letter-spacing: 1px;
+    color:rgb(150,150,150)
+} 
+.a2zreview{
+    background-color: #000;
+} */
+.contact{
+    width:100%;
+    height:345px;
+    padding: 20px 0;
+    background:#000;
+    display: flex;
+    justify-content: space-around;
+
+}
+.contact .c_image img{
+    width:800px;
+    height:300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:35px;
+}
+.contact .subscribe h1{
+    color:#fff;
+    font-family: "Euphemia";
+    text-align: center;
+}
+.contact .subscribe .title{
+    color:#cfcfcf;
+    text-align: center;
+}
+.contact .subscribe .c_search{
+    margin: 40px 0;
+}
+.contact .subscribe .c_search input{
+    width: 250px;
+    padding: 8px 5px;
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    color:#cfcfcf;
+    border-color:#98e54c
+}
+.contact .subscribe .c_search button{
+    text-decoration: none;
+    color: #000;
+    background-color: #98e54c;
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-family: "Franklin Gothic Book";
+}
+.contact .subscribe .address{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .subscribe .address .place h3{
+    font-family: "Euphemia";
+    color:#fff;
+    margin-bottom: 15px;
+
+}
+.contact .subscribe .address .place p{
+    color:#cfcfcf;
+    font-family: "Franklin Gothic Book";
+    text-align: right;
+    line-height: 23px;
+}
+.contact .subscribe .address .follow{
+    font-family: "Euphemia";
+    color: #fff;
+    margin-bottom: 15px;
+}
+.contact .subscribe .address .follow .icon {
+    letter-spacing: 5px;
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+    transition:0.4s;
+
+}
+.contact .subscribe .address .follow .icon i:hover{
+    color:#98e54c
+}
